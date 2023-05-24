@@ -60,7 +60,7 @@ function HowDoesItWork() {
               </div>
             </div>
             {/* left side */}
-            <div className="flex flex-col  items-center md:items-start backdrop-brightness-75">
+            <div className="flex flex-col  mx-8 md:mx-0 items-center md:items-start backdrop-brightness-75">
               {HowDoesItWorkConstants.map((how) => (
                 <div
                   className="flex flex-col justify-between border-t-2 border-l-2 border-r-2 items-center px-5 first:rounded-t-md md:max-w-[565px] w-full   last:rounded-b-md last:border-b-2 "
