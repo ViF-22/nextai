@@ -7,6 +7,7 @@ import Form from "./Form";
 
 function HowDoesItWork() {
   const [toggle, setToggle] = useState("none");
+  const [modalActive, setModalActive] = useState(false);
 
   function toggleFunction(id) {
     setToggle({

@@ -18,7 +18,7 @@ const store = configureStore({
 export default function Home() {
   return (
     <Provider store={store}>
-      <div className="w-full ">
+      <div className="w-full bg-black">
         <HomePage />
         <Reasons />
         <HowDoesItWork />

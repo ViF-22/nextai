@@ -64,3 +64,19 @@
     height: 24px;
   }
 }
+
+form::-webkit-scrollbar {
+  width: 5px;
+}
+
+form::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form::-webkit-scrollbar-thumb {
+  background-color: rgba(164, 164, 164, 0.667);
+  border-radius: 100px;
+}
