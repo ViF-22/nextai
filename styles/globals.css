@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.spmono {
+  font-family: "Space Mono", monospace;
+}
+
+.sq::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 6px;
+  height: 6px;
+  background-color: #633dff; /* to see where it is */
+}
+
+.sq::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: -4px;
+  width: 6px;
+  height: 6px;
+  background-color: #633dff; /* to see where it is */
+}
+
+.bg1 {
+  background-image: radial-gradient(
+      rgba(255, 49, 3, 0.896),
+      rgba(251, 255, 0, 0.75)
+    ),
+    url("/public/bg1.png");
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .rectangle::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    left: -13px;
+    top: 14px;
+    width: 7px;
+    height: 24px;
+  }
+}
