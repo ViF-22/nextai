@@ -7,7 +7,6 @@ import Form from "./Form";
 
 function HowDoesItWork() {
   const [toggle, setToggle] = useState("none");
-  const [modalActive, setModalActive] = useState(false);
 
   function toggleFunction(id) {
     setToggle({
@@ -94,7 +93,7 @@ function HowDoesItWork() {
           </div>
         </div>
       </div>
-      <Form active={modalActive} setActive={setModalActive} />
+      <Form />
     </div>
   );
 }

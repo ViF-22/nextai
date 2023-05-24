@@ -9,9 +9,9 @@ function HomePage() {
   //modal window
   //const [modalActive, setModalActive] = useState(false);
   return (
-    <div className=" w-full h-full   bg-black">
+    <div className=" w-full h-full  flex flex-col bg-black">
       <div className="max-w-[1800px] mx-auto">
-        <div className=" grid md:grid-cols-2 grid-cols-1 gap-x-10 md:px-[100px]  pt-[80px] pb-[60px] bg-bg-one bg-no-repeat bg-cover ">
+        <div className=" grid md:grid-cols-2 grid-cols-1 gap-x-10 md:px-[100px]  pt-[80px] pb-[60px] bg-bg-one bg-no-repeat bg-cover relative">
           {/* title with button */}
           <div className="text-white text-center md:text-left mx-8 md:mx-0 md:max-w-[700px] flex flex-col items-center md:items-start">
             <div className="w-full">
